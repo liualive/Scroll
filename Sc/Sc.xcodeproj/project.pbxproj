@@ -14,6 +14,7 @@
 		C210C76E1B0EBD08005EC3B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C210C76D1B0EBD08005EC3B7 /* Images.xcassets */; };
 		C210C7711B0EBD08005EC3B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C210C76F1B0EBD08005EC3B7 /* LaunchScreen.xib */; };
 		C210C77D1B0EBD08005EC3B7 /* ScTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C210C77C1B0EBD08005EC3B7 /* ScTests.m */; };
+		C210C7881B0EBF3A005EC3B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C210C7871B0EBF3A005EC3B7 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C210C7761B0EBD08005EC3B7 /* ScTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C210C77B1B0EBD08005EC3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C210C77C1B0EBD08005EC3B7 /* ScTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScTests.m; sourceTree = "<group>"; };
+		C210C7861B0EBF3A005EC3B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C210C7871B0EBF3A005EC3B7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C210C7651B0EBD08005EC3B7 /* AppDelegate.m */,
 				C210C7671B0EBD08005EC3B7 /* ViewController.h */,
 				C210C7681B0EBD08005EC3B7 /* ViewController.m */,
+				C210C7861B0EBF3A005EC3B7 /* RootViewController.h */,
+				C210C7871B0EBF3A005EC3B7 /* RootViewController.m */,
 				C210C76A1B0EBD08005EC3B7 /* Main.storyboard */,
 				C210C76D1B0EBD08005EC3B7 /* Images.xcassets */,
 				C210C76F1B0EBD08005EC3B7 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				C210C7691B0EBD08005EC3B7 /* ViewController.m in Sources */,
 				C210C7661B0EBD08005EC3B7 /* AppDelegate.m in Sources */,
+				C210C7881B0EBF3A005EC3B7 /* RootViewController.m in Sources */,
 				C210C7631B0EBD08005EC3B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				C210C7821B0EBD08005EC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C210C7831B0EBD08005EC3B7 /* Build configuration list for PBXNativeTarget "ScTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				C210C7851B0EBD08005EC3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
